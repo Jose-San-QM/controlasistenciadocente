@@ -1,0 +1,16 @@
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\capa_entidad.dll
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\capa_entidad.pdb
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\obj\Debug\capa_entidad.csproj.AssemblyReference.cache
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\obj\Debug\capa_entidad.csproj.CoreCompileInputs.cache
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\obj\Debug\capa_ent.FB246145.Up2Date
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\obj\Debug\capa_entidad.dll
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\obj\Debug\capa_entidad.pdb
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\System.Drawing.Common.dll
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\zxing.dll
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\zxing.presentation.dll
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\System.Drawing.Common.pdb
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\System.Drawing.Common.xml
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\zxing.xml
+C:\Users\Santos\Desktop\DISEÑO DE SISTEMAS\2-Control-Asistencia-Docentes\controlasistenciadocente\capa_entidad\bin\Debug\zxing.presentation.xml

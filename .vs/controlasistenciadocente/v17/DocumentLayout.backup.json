@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|c:\\users\\santos\\desktop\\dise\u00F1o de sistemas\\2-control-asistencia-docentes\\controlasistenciadocente\\capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|solutionrelative:capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|solutionrelative:capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|solutionrelative:capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\frmlistadocentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}|capa_presentacion\\capa_presentacion.csproj|solutionrelative:capa_presentacion\\frmlistadocentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\login.cs",
+              "RelativeDocumentMoniker": "capa_presentacion\\login.cs",
+              "ToolTip": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\login.cs",
+              "RelativeToolTip": "capa_presentacion\\login.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowIIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:33:56.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\login.cs",
+              "RelativeDocumentMoniker": "capa_presentacion\\login.cs",
+              "ToolTip": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "capa_presentacion\\login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:33:53.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\inicio.cs",
+              "RelativeDocumentMoniker": "capa_presentacion\\inicio.cs",
+              "ToolTip": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "capa_presentacion\\inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:02:50.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmlistadocentes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\frmlistadocentes.cs",
+              "RelativeDocumentMoniker": "capa_presentacion\\frmlistadocentes.cs",
+              "ToolTip": "C:\\Users\\Santos\\Desktop\\DISE\u00D1O DE SISTEMAS\\2-Control-Asistencia-Docentes\\controlasistenciadocente\\capa_presentacion\\frmlistadocentes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "capa_presentacion\\frmlistadocentes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:28:34.503Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

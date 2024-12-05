@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7CBE226-E791-41C6-B58C-63E8D5F0EB3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>capa_presentacion</RootNamespace>
+    <AssemblyName>capa_presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net461\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot, Version=2.2.0.0, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Core.2.2.0\lib\net462\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot.WindowsForms, Version=2.2.0.0, Culture=neutral, PublicKeyToken=245eacd6b5d2d338, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.WindowsForms.2.2.0\lib\net462\OxyPlot.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Core.WinForms.27.2.4\lib\net462\Syncfusion.Core.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Data.WinForms.27.2.4\lib\net462\Syncfusion.Data.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.DataSource.WinForms.27.2.4\lib\net462\Syncfusion.DataSource.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.GridCommon.WinForms.27.2.4\lib\net462\Syncfusion.GridCommon.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.27.2.4\lib\net462\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfDataGrid.WinForms.27.2.4\lib\net462\Syncfusion.SfDataGrid.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfInput.WinForms.27.2.4\lib\net462\Syncfusion.SfInput.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfListView.WinForms.27.2.4\lib\net462\Syncfusion.SfListView.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=27.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Shared.Base.27.2.4\lib\net462\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.1\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.8.0.10\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.9\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.9\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlAsistenciaDocenteDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlAsistenciaDocenteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmagregarhorarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmagregarhorarios.Designer.cs">
+      <DependentUpon>frmagregarhorarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmagregartexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmagregartexto.Designer.cs">
+      <DependentUpon>frmagregartexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmagregarusuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmagregarusuarios.Designer.cs">
+      <DependentUpon>frmagregarusuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmeliminarusuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmeliminarusuarios.Designer.cs">
+      <DependentUpon>frmeliminarusuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmestadousuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmestadousuario.Designer.cs">
+      <DependentUpon>frmestadousuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frminformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminformacion.Designer.cs">
+      <DependentUpon>frminformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlistaasistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlistaasistencia.Designer.cs">
+      <DependentUpon>frmlistaasistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlistadocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlistadocentes.Designer.cs">
+      <DependentUpon>frmlistadocentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlistaempleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlistaempleados.Designer.cs">
+      <DependentUpon>frmlistaempleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmreportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreportes.Designer.cs">
+      <DependentUpon>frmreportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmarcarasistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmarcarasistencia.Designer.cs">
+      <DependentUpon>frmmarcarasistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="validaciones.cs" />
+    <EmbeddedResource Include="frmagregarhorarios.resx">
+      <DependentUpon>frmagregarhorarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmagregartexto.resx">
+      <DependentUpon>frmagregartexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmagregarusuarios.resx">
+      <DependentUpon>frmagregarusuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmeliminarusuarios.resx">
+      <DependentUpon>frmeliminarusuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmestadousuario.resx">
+      <DependentUpon>frmestadousuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminformacion.resx">
+      <DependentUpon>frminformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlistaasistencia.resx">
+      <DependentUpon>frmlistaasistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlistadocentes.resx">
+      <DependentUpon>frmlistadocentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlistaempleados.resx">
+      <DependentUpon>frmlistaempleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmarcarasistencia.resx">
+      <DependentUpon>frmmarcarasistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreportes.resx">
+      <DependentUpon>frmreportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ControlAsistenciaDocenteDataSet.xsc">
+      <DependentUpon>ControlAsistenciaDocenteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ControlAsistenciaDocenteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ControlAsistenciaDocenteDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ControlAsistenciaDocenteDataSet.xss">
+      <DependentUpon>ControlAsistenciaDocenteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capa_entidad\capa_entidad.csproj">
+      <Project>{00fd4c11-7ab2-43e8-953c-0e6347e41d74}</Project>
+      <Name>capa_entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\capa_negocio\capa_negocio.csproj">
+      <Project>{a4d11a6f-4c2b-4271-a689-3e883194c058}</Project>
+      <Name>capa_negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.NETFramework.ReferenceAssemblies.net462.1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net462.targets" Condition="Exists('..\packages\Microsoft.NETFramework.ReferenceAssemblies.net462.1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net462.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.NETFramework.ReferenceAssemblies.net462.1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net462.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NETFramework.ReferenceAssemblies.net462.1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net462.targets'))" />
+  </Target>
+</Project>
